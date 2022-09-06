@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  display: flex;
+}
+
+.sign-in {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 120px !important;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 32px;
+}
+
+.sign-in input {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.header {
+  display: flex;
+  background-color: lightblue;
+}
+
+.header h1 {
+  flex-grow: 1;
+  padding-left: 40px;
+}
+
+.header button {
+  background: none;
+  border: none;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.time-clock {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.info {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 20px auto;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 32px;
+  min-width: 180px;
+}
+
+.buttons {
+  margin: auto;
+  display: flex;
+  padding: ;
+}
+
+.buttons button {
+  font-size: 1.2em;
+  margin: 3px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.shift {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px 0;
+  margin: 20px auto;
+  width: 400px;
+}
+
+.shift .row {
+  display: flex;
+  padding: 2px 12px;
+}
+
+.shift .row:nth-child(odd) {
+  background-color: lightblue;
+}
+
+.shift .row .status {
+  flex-grow: 1;
+}
+
